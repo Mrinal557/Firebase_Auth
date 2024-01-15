@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
+*>*{
+    font-family: Vina Sans, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.userinfo{
+    border: 1px solid white;
+    padding: 7px;
+    display: flex;
+   margin-right: 20px;
+
+ }

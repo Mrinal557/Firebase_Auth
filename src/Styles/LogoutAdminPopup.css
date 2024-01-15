@@ -1,0 +1,6 @@
+@media screen and (max-width:500px) {
+    .ad-logout-btn {
+        size: small;
+        border: 1px solid black;
+   }
+}

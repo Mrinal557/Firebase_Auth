@@ -1,0 +1,54 @@
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    background-color: white;
+    padding: 16px;
+    border-radius: 4px;
+}
+
+.popup-content h2 {
+    margin-top: 0;
+}
+
+.popup-content button {
+    margin-top: 8px;
+}
+
+.button {
+    background-color: #e72e21;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 8px 16px;
+}
+
+.button:hover {
+    background-color: #ff785f;
+}
+
+
+.popup {
+    animation-name: fade-in-out;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+}
+
+@keyframes fade-in-out {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

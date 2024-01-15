@@ -1,0 +1,47 @@
+.headerbar {
+
+    height: 80px;
+    width: 100%;
+    display: flex;
+  }
+  
+  .logoimage {
+    height: 60px;
+    width: 40;
+    margin: 10px;
+    border-radius: 50px;
+  
+  }
+  
+  .headleft {
+    flex: 3;
+  
+  }
+  
+  .headcenter {
+    flex: 3;
+  }
+  
+  .headright {
+    flex: 3;
+  
+  }
+  
+  .left-logo-name {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+  
+  }
+  
+  .submit-btn:hover {
+    background-color: rgb(86, 33, 220);
+  }
+  
+  .logoimageleft {
+    height: 60px;
+    width: 120px;
+    float: right;
+    margin-right: 20px;
+    border-radius: 30px;
+  }

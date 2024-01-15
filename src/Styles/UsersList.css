@@ -1,0 +1,53 @@
+@media (max-width: 391px) {
+    body,html {
+      overflow-x: hidden;
+    }
+  }
+.users-table-heading {
+    margin: 50px;
+    border:1px solid red;
+}
+ 
+.users-table-head {
+    background-color: antiquewhite;
+}
+ 
+.container {
+    margin-bottom: 30px;
+}
+ 
+.table {
+    background-color: white;
+    height: 100%;
+    width: 100%;    
+}
+ 
+th,
+td {
+    padding: 2px;
+    text-align: center;
+    font-family: 'Roboto Condensed', 'Agbalumo', 'Noto Sans', 'Poppins', 'Nunito';
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px lightblue;
+}
+.search-container {
+    display: flex;
+    max-width: 100%;
+  }
+ 
+  .search-container input[type="text"] {
+    width: 98.5%;
+    background-color: "Menu";
+  }
+ 
+  @media (max-width: 768px) {
+    .search-container {
+      max-width: 100%;
+      overflow-y: scroll;
+      max-height: 300px;
+    }
+ 
+    .search-container input[type="text"] {
+      width: 100%;
+   }
+ }
